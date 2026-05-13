@@ -1,7 +1,15 @@
-Project Title: Glass Substrate AI Thermal & Stress Simulator
+# Glass Substrate AI Thermal & Stress Simulator 🔬
 
-Problem Statement: 유리기판 제조 시 발생하는 TGV 균열 및 열팽창 문제를 AI로 해결.
+### [ Live Demo Click Here](https://glass-ai-sim.streamlit.app/)
 
-Features: 열 분포 시뮬레이션, 응력 분석, Open Claw 기반 설계 최적화 루프.
+This project provides an AI-driven digital twin simulation for **Glass Core Substrate (GCS)**, focusing on TGV (Through Glass Via) optimization and thermal stress management.
 
-How to Run: pip install -r requirements.txt 후 streamlit run app.py 실행 방법 안내.
+## 🌟 Key Features
+- **Thermal Heatmap:** Real-time visualization of heat dissipation on glass substrates.
+- **Stress Analysis:** Predictive modeling of mechanical stress concentration near TGVs.
+- **AI-Powered Optimization:** Autonomous design adjustments using the **Open Claw** framework (Conceptual).
+
+## 🛠 Tech Stack
+- **Frontend:** Streamlit
+- **Physics/Math:** NumPy, SciPy
+- **Visualization:** Plotly
